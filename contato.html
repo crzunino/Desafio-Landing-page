@@ -11,9 +11,9 @@
      <!--Inicio de header-->
     <header>
         <section>
-            <div class="conteudo">
+            
             <img src="./imagens/logo.png" alt="Logo do Site" width="200px"/>
-            </div>
+            
             
                    
             <!--Inicio do menu do site-->
@@ -22,7 +22,7 @@
                 <ul>
                     
                      <li>
-                    <a href="inicio.html">Inicio</a>                                                  </a>
+                    <a href="inicio.html">Inicio</a>                                                
                     </li>
          
                     <li class="botao">
@@ -45,77 +45,49 @@
         <!--Inicio da section do conteudo do site--> 
         <section>
             <!--Conteudo de texto sobre o site-->
-            <div class="conteudo">
+            
             <article> 
-                <h1>Contato</h1>
-                <h2>Landing Page</h2>
-               
-                <p>
-                    Preencha os dados ao lado e envie sua mensagem de contato.
-                    <br><br><br>
-                         
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo
-                    <br><br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo
-                </p>
+                <h1>Formulário de Contato</h1>
+                <p>Preencha os dados ao lado e envie sua mensagem de contato.</p>
 
                 <fieldset>
                     
-                    <!--Não incluso na pagina contato 
-                    <legend>
-                        <h5>Dados do contato </h5> 
-                    </legend>
-                    -->
-                    <div>
+                  <legend>
+                    <h5>Dados do contato </h5> 
+                  </legend>
+                                       
                     <form  id="frmInscrição" action="contato.php" method="POST">
 
-                        <div>
+                        
                         <label>Nome:</label><br>
-                        <div class="entrada">
                         <input type="text" required="required" id="txtNome"  maxlength="100" size="80"><br><br>
-                        </div>
-                        </div>
-                        <br>
-                        <br>
+                        
 
 
-                        <div class="">
+                       
                         <label>Data de Nascimento:</label><br>
-                        <div class="entrada">
                         <input type="date" required="required" size="10"   id="txtDataNascimento" placeholder="dd/mm/aaaa"> <br><br>
-                        </div>
-                        </div>
                         <br>
                         <br>
 
-                        <!--Não incluso na pagina contato 
-                        <div>
+                        
+                       
                         <label>Sexo:</label><br>
                         <input type="radio" name="rdoSexo" value="M" required="required">
                         <label>Masculino</label>
                         <input type="radio" name="rdoSexo" value="F">
                         <label>Feminino</label>
-                        </div>
                         <br><br>
-                        -->
+                        
 
 
-                        <!--Não incluso na pagina contato 
-                        <div>
+                     
                         <label>Endereço:</label><br>
                         <input type="text" required="required" id="txtLogradouro" maxlength="100" size="50"><br><br>
-                        </div>    
-                        -->
+                       
 
 
-                        <!--Não incluso na pagina contato 
-                        <div>
+                       
                         <label>Estado:</label><br>
                         <select id="cbxEstado" required="required">
                             <option value="">-Selecione-</option>
@@ -126,12 +98,12 @@
                             <option value="5">RJ</option>
                             <option value="6">MG</option> 
                         </select>    
-                        </div>     
+                          
                         <br><br>
-                        -->
+                       
 
-                         <!--Não incluso na pagina contato 
-                        <div>
+                        
+                      
                         <label>Cidade:</label><br>
                         <select id="cbxCidade" required="required">
                             <option value="">-Selecione-</option>
@@ -144,31 +116,23 @@
                             <option value="7">Rio de Janeiro</option>  
                             <option value="8">Belo Horizonte</option>  
                        </select>
-                       </div> 
                        <br><br>
-                       -->
+                     
 
 
-                       <div>
+                       
                        <label>Celular:</label><br>
-                       <div class="entrada">
                        <input type="tel" required="required" id="txtCelular"  placeholder="(##) #####-####" size="80" maxlength="15"><br><br>
-                       </div> 
-                       </div>
                        <br>
                        <br>
 
-                       <div>
+                       
                        <label>E-mail:</label><br>
-                       <div class="entrada">
                        <input type="email" required="required" id="txtEmail" size="80"><br><br>
-                       </div> 
-                       </div>
                        <br>
                        <br>
 
-                       <!--Não incluso na pagina contato 
-                       <div>
+                      
                        <label>Áreas de Interesse:</label><br>
                        <input type="checkbox" value="HTML" name="chkAreasInteresse">
                        <label>HTML</label>
@@ -176,26 +140,18 @@
                        <label>CSS</label>
                        <input type="checkbox" value="JavaScript" name="chkAreasInteresse">
                        <label>JavaScript</label><br><br>
-                       </div> 
-                       -->
+                     
 
 
                        <label>Mensagem:</label>
-                       <div class="entrada">
                        <textarea cols="80" rows="5"></textarea>
-                       </div>
-                       </div>
-                      
                        <br>
                        <br>
 
 
-                       <div class="enviar">
                        <input type="submit" id="btnEnviar" value="Enviar" />
-                       </div>
-
                     </form>
-                    </div>
+                 
                 </fieldset>
             </article>
             <!--Fim do conteudo de texto sobre o site-->
@@ -207,9 +163,9 @@
 
      <!--Inicio do footer--> 
     <!--Inicio do footer--> 
-    <footer class="conteudo">
+    <footer>
         <!--Inicio das redes sociais--> 
-        <ul class="linha">
+        <ul>
             <li>
                 <a href="#">
                     <img src="./imagens/logo-insta.png" alt="Instagram" />
