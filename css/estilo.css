@@ -13,18 +13,21 @@
     list-style: none;
 }
 
-.conteudo {
+body {
     width: 1024px;
-    margin: 30px auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    padding: 10px;
     
 }
 
 
-.linha {
+main {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    margin-top: 150px;
     
 }   
 
@@ -32,19 +35,19 @@
 header section {
     justify-content: space-between;
     align-items: center;
-    
-}
-
-
-header nav ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+
+}    
+
+li  {
+    display: inline-block;
+    margin: 10px;
+
+
+}    
     
-
-}
-
-
+ 
 header nav ul li a {
     margin: 0px 15px;
     color: #39c;
@@ -56,7 +59,16 @@ header nav ul li a {
     padding: 2px 10px;
     border-radius: 10px;
     
+}
+
+
+article a {
+    border:2px solid #30C5CC;
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: #30C5CC;
     
+
 }
 
 .botao.botao-destaque {
@@ -66,36 +78,38 @@ header nav ul li a {
 
 
 
-.sobre  {
+.article  {
     justify-content: space-between;
     align-items: center;
+    
+
 }
 
 
-.sobre article {
+.article {
     width: 350px;
     
 }
 
 
-.sobre article h1 { 
-    font-size: 70px;
+h1 { 
+    font-size: 50px;
     line-height: 90%;
     font-weight: 400;
     color: #336;
+
    
     
 }
 
 
 
-.sobre article h2 ,
-.sobre article p{
+h2 , p{
     color: #39c;
 }
 
 
-.sobre article h2 {
+h2 {
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -104,16 +118,20 @@ header nav ul li a {
 }
 
 
-.sobre article p {
+p {
     margin: 10px 0px 40px;
+    line-height: 20px;
+    max-width: 350px;
     
   
     
 }  
 
 
-.sobre figcaption img {
-    width: 700px;
+figcaption img {
+    width: 600px;
+    margin-top: -100px;
+    margin-left: 80px;
     
 }   
 
